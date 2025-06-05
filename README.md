@@ -33,7 +33,9 @@ This is a simple and interactive web application built using **Streamlit** that 
 ```bash
 ai_tool_chatbot/
 │
-├── app.py              # Main Streamlit app script
-├── style.css           # External CSS file for styling
-├── tool_suggestions.py # Dictionary of AI tasks and tools
-├── requirements.txt    # Python dependencies
+├── app.py              
+├── style.css              
+```
+# commands
+
+streamlit run app.py
