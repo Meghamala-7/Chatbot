@@ -1,0 +1,94 @@
+/* General background and text */
+body {
+    background-color: #94eadd;
+    color: #000908;
+}
+
+.stApp {
+    background-color: #6bebd8;
+    font-family: 'Segoe UI', sans-serif;
+    color: #000908;
+}
+
+/* General text overrides */
+body, .stApp, .css-1d391kg, .css-10trblm, .css-1offfwp, .css-1v0mbdj, .css-ffhzg2 {
+    color: #000908 !important;
+}
+.custom-success {
+    background-color: #e9ef8b;  /* light blue background */
+    color: #000000;              /* black text */
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* st.success yellow highlight */
+.stAlert.success {
+    background-color: #fff9db !important;
+    color: #6b5700 !important;
+    border-left: 6px solid #ffec99 !important;
+    border-radius: 8px;
+    padding: 1rem;
+}
+/* Override st.success text color */
+div.stAlert.stAlertSuccess > div[data-testid="stMarkdownContainer"] p {
+    color: #000000 !important;
+}
+
+/* Selectbox */
+.stSelectbox > div {
+    background-color: #24bca6;
+    color: #000908;
+    border-radius: 0.5rem;
+}
+.stSelectbox > div:hover {
+    background-color: #33d2be !important;
+}
+div[role="listbox"] {
+    background-color: #a0bc24 !important;
+    color: #000908 !important;
+}
+div[role="option"]:hover {
+    background-color: #33d2be !important;
+    color: #000908 !important;
+}
+
+/* Text input */
+.stTextInput > div {
+    background-color: #9ebc24;
+    border-radius: 0.5rem;
+    color: #000908;
+}
+.stTextInput > div input {
+    background-color: #24bca6 !important;
+    color: #000908 !important;
+}
+
+/* Card-style container */
+.css-1cpxqw2 {
+    background-color: #219786;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    color: #000908;
+}
+
+/* Button styles */
+.stButton > button {
+    background-color: #667d1b;
+    color: #150909;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+.stButton > button:hover {
+    background-color: #145943;
+    color: #0c0b0b;
+}
+.select-label {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
